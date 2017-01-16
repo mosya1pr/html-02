@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sample</title>
+</head>
+<body>
+    <form method="POST" action="mail.php">
+        <label for=""clientname>Client name</label>
+     <input type="text" name="clientname" id="cleintname" required>
+     <br>
+     <label>Client email adress:
+          <input type="email" name="clientemail" required>   
+     </label>
+     <br>
+     <label>Car plate number:
+         <input type="text" name="carplate" required pattern="[A-Z]"
+         placeholder="AA1234">
+     </label>
+     <br>
+     <input type="submit">
+    </form>
+</body>
+</html>
